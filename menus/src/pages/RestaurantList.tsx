@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Container,
   Row,
   Col,
   Card,
@@ -44,7 +43,7 @@ const RestaurantList: React.FC<RestaurantListProps> = ({ restaurants }) => {
         </div>
       </div>
 
-      <Container fluid className="restaurant-list-container px-4">
+      <div className="restaurant-list-container">
         <div id="restaurantes-section" className="text-center mb-5">
           <h2 className="main-title">Nuestros Restaurantes</h2>
           <p className="main-subtitle">
@@ -92,7 +91,7 @@ const RestaurantList: React.FC<RestaurantListProps> = ({ restaurants }) => {
             </Col>
           ))}
         </Row>
-      </Container>
+      </div>
     </>
   );
 };

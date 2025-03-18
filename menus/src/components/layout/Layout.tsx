@@ -12,7 +12,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div className="app-container pattern-bg">
       <Navbar />
       <main className="main-content">
-        {children}
+        <div className="content-container">
+          {children}
+        </div>
       </main>
       <Footer />
     </div>

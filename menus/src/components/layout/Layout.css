@@ -11,6 +11,15 @@
 .main-content {
   flex: 1 0 auto;
   padding: 0;
+  width: 100%;
+}
+
+/* Contenedor con márgenes */
+.content-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
 }
 
 /* Fondos */

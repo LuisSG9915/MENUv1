@@ -64,6 +64,7 @@
   letter-spacing: -0.5px;
   position: relative;
   display: inline-block;
+  color: var(--accent-color);
 }
 
 .restaurant-hero-title::after {
