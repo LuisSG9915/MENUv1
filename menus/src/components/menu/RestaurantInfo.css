@@ -1,0 +1,65 @@
+.restaurant-info .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.restaurant-info h3 {
+  font-weight: 600;
+  color: #343a40;
+  border-bottom: 2px solid #f8f9fa;
+  padding-bottom: 10px;
+}
+
+.restaurant-info h4 {
+  font-weight: 600;
+  color: #495057;
+  font-size: 1.2rem;
+}
+
+.restaurant-about {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.contact-icon {
+  color: #007bff;
+  width: 20px;
+}
+
+.restaurant-contact-details li {
+  font-size: 1.05rem;
+  color: #495057;
+}
+
+.opening-hours-table {
+  font-size: 1.1rem;
+}
+
+.opening-hours-table td {
+  padding: 10px 15px;
+  border-color: #f1f3f5;
+}
+
+.opening-hours-table td:first-child {
+  font-weight: 600;
+}
+
+.services-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services-list li {
+  background-color: #f8f9fa;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  color: #495057;
+  display: inline-block;
+}
